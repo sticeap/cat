@@ -1,0 +1,85 @@
+<div class="page secondary with-sidebar">
+        <div class="page-header">
+            <div class="page-header-content">
+                <h1>Menus<small>page</small></h1>
+                <a href="{{homepage}}" class="back-button big page-back"></a>
+            </div>
+        </div>
+
+        <div class="page-sidebar">
+            <ul>
+                <li>
+                    <a>Projects</a>
+                    <ul class="sub-menu">
+                        <li><a href="">Currently</a></li>
+                        <li><a href="">Closed</a></li>
+                    </ul>
+                </li>
+                <li class="sticker sticker-color-pink dropdown active" data-role="dropdown" ui-jq="Dropdown">
+                    <a>Notes</a>
+                    <ul class="sub-menu light sidebar-dropdown-menu open" ng-click="stopPropagation($event);">
+                        <!-- <li>
+                            <label class="input-control radio">
+                                <input type="radio" ng-model="selectedPrice" name="sssssssss" value="5">
+                                <span class="helper">< 5 lei</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="input-control radio">
+                                <input type="radio" ng-model="selectedPrice" name="sssssssss" value="12">
+                                <span class="helper">< 12 lei</span>
+                            </label>
+                        </li> --> 
+                        <li ng-repeat="price in prices">
+                            <label class="input-control radio">
+                                <input type="radio" ng-model="$parent.selectedPrice" name="sssssssss" value="{{price}}">
+                                <span class="helper"> &lt;= {{price}} lei</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sticker sticker-color-pink dropdown active" data-role="dropdown" ui-jq="Dropdown">
+                    <a><i class="icon-list"></i> Filter by type</a>
+                    <ul class="sub-menu light sidebar-dropdown-menu open" ng-click="stopPropagation($event);">
+                        <li ng-repeat="(name, value) in menuTypes | orderBy:name">
+                            <label class="input-control checkbox">
+                                <input type="checkbox" ng-model="menuTypes[name]">
+                                <span class="helper">{{name}}</span>
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-region">
+            <div class="page-region-content">
+                <div class="span9">
+                    <h2>Filter Menus</h2>
+                    <div class="grid">
+                        <div class="row">
+                            <div class="span9">
+                                <div class="input-control text">
+                                    <input type="text" class="with-helper" search-menu placeholder="search menu" />
+                                    <button class="helper"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ul class="listview fluid span9">
+                                <li ng-repeat="menu in menus | menutype:menuTypes:selectedPrice" ng-class="{'selected' : menu.selected}" ng-click="selectmenu(menu);" ng-show="menu.visible">
+                                    <div class="icon">
+                                        <img src="images/onenote2013icon.png">
+                                    </div>
+                                    <div class="data">
+                                        <h4>{{menu.title}}</h4>
+                                        <p ng-bind-html-unsafe="menu.content"></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

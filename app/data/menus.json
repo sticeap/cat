@@ -1,0 +1,1730 @@
+[
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 1 - 13,50 lei",
+        "content": "Vinete in sos chinezesc (vinete, usturoi, ardei gras, praz, sos de soia, condiment chinezesc) 200g<br/>Salata de varza (varza alba, varza rosie) 75g<br/>Orez cu legume (orez, mazare, varza rosie) 125g<br/>",
+        "visible": true,
+        "price": "13.50",
+        "name": "Meniu nr. 1",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 2 - 15,00 lei",
+        "content": "Legume Shi-Jin (morcov, conopida, broccoli, varfuri de porumb, ardei gras rosu si verde, urechi de lemn, ciuperci, condiment chinezesc) 200g<br/>Pachetele de primavara (foi de placinta, varza, morcov ) 75g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 125g<br/>",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 2",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 3 - 15,00 lei",
+        "content": "Ciuperci in sos alb (ciuperci, urechi de lemn, morcov,usturoi, condiment chinezesc) 200g<br/>Pachetele de primavara (foi de placinta, varza, morcov) 75g<br/>Orez cu legume (orez, mazare, varza rosie) 125g<br/>",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 3",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 4 - 15,00 lei",
+        "content": "Cod pe plita (file de cod, ardei gras, morcov, varza, ciuperci, usturoi, condiment chinezesc) 200g<br/>Salata de urechi de lemn (urechi de lemn, ardei gras rosu, praz, usturoi) 75g<br/>Orez cu legume (orez, mazare, morcov, ou) 125g<br/>",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 4",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 5 - 20,00 lei",
+        "content": "Fructe de mare cu legume in sos chinezesc (fructe de mare, morcov, broccoli, conopida, usturoi, urechi de lemn, ciuperci, condiment chinezesc)200g<br/>Salata de alge (alge de mare, morcov, ardei gras, usturoi, condiment chinezesc) 75g<br/>Orez cu legume (orez, mazare, varza rosie) 125g<br/>",
+        "visible": true,
+        "price": "20.00",
+        "name": "Meniu nr. 5",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 6 - 17,50 lei",
+        "content": "Pui pane cu susan (piept de pui, coca, susan, condiment chinezesc) 200g<br/>Salata de varza (varza alba, varza rosie) 75g<br/>Cartofi prajiti (cartofi, praz, usturoi) 125g<br/>",
+        "visible": true,
+        "price": "17.50",
+        "name": "Meniu nr. 6",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr.7 - 18,50 lei",
+        "content": "Pui Shang - Hai(piept de pui, coca, condiment chinezesc)200g<br/>Salata chinezeasca (varza alba si rosie, ardei gras rosu si verde, rosii, castraveti, morcov)75g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 125g<br/>",
+        "visible": true,
+        "price": "18.50",
+        "name": "Meniu nr.7",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 8 - 16,00 lei",
+        "content": "Pui Gon - Bao (piept de pui, alune, morcov, ardei iute, condiment chinezesc) 200g<br/>Salata de varza (varza alba, varza rosie) 75g<br/>Orez \"Yang Zhou\" (orez, mazare, morcov, sunca presata de porc, ou) 125g<br/>",
+        "visible": true,
+        "price": "16.00",
+        "name": "Meniu nr. 8",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr.9 - 17,50 lei",
+        "content": "Pui Shi - Jin (piept de pui, ciuperci, urechi de lemn, varza, morcov, conopida, broccoli, condiment chinezesc) 200g<br/>Pachetele de primavara (foi de placinta, varza, morcov) 75g<br/>Orez \"Yang Zhou\" (orez, mazare, morcov, sunca presata de porc, ou) 125g<br/>",
+        "visible": true,
+        "price": "17.50",
+        "name": "Meniu nr.9",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 10 - 22,50 lei",
+        "content": "Oaie condimentata (pulpa de oaie dezosata, chimion, ou) 200g<br/>Salata de castraveti cu usturoi (castraveti proaspeti, usturoi) 75g<br/>Orez cu legume (orez, mazare, varza rosie) 125g<br/>",
+        "visible": true,
+        "price": "22.50",
+        "name": "Meniu nr. 10",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 11 - 20,00 lei",
+        "content": "Porc \"Yuxiang\" (cotlet de porc, varfuri de porumb, ardei gras, urechi de lemn, salata verde chinezeasca, usturoi, condiment chinezesc) 200g<br/>Salata chinezeasca (varza alba si rosie, ardei gras rosu si verde, rosii, castraveti, morcov)75g<br/>Orez cu legume (orez, mazare, varza rosie) 125g<br/>",
+        "visible": true,
+        "price": "20.00",
+        "name": "Meniu nr. 11",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 12 - 25,00 lei",
+        "content": "Rata prajita (carne de rata, ou, condiment chinezesc) 200g<br/>Salata chinezeasca (varza alba si rosie, ardei gras rosu si verde, rosii, castraveti, morcov)75g<br/>Orez curry (orez, mazare, morcov, curry) 125g<br/>",
+        "visible": true,
+        "price": "25.00",
+        "name": "Meniu nr. 12",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 13 - 18,50 lei",
+        "content": "Vita si pui pe plita (pulpa de vita, piept de pui, morcov, ardei gras, varza, ciuperci, ceapa, usturoi, condiment chinezesc) 200g<br/>Pachetele de primavara (foi de placinta, varza, morcov) 75g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 125g<br/>",
+        "visible": true,
+        "price": "18.50",
+        "name": "Meniu nr. 13",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 14 - 18,50 lei",
+        "content": "Vita Gan-Bian (pulpa de vita, ardei iute, ceapa, susan, ardei gras, condiment chinezesc) 200g<br/>Salata de urechi de lemn (urechi de lemn, ardei gras rosu, praz, usturoi) 75g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 125g<br/>",
+        "visible": true,
+        "price": "18.50",
+        "name": "Meniu nr. 14",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 15 - 17,50 lei",
+        "content": "Vita condimentata (pulpa de vita, ceapa, ardei iute, condiment chinezesc) 200g<br/>Salata chinezeasca (varza alba si rosie, ardei gras rosu si verde, rosii, castraveti, morcov)75g<br/>Orez curry (orez, mazare, morcov, curry) 125g<br/>",
+        "visible": true,
+        "price": "17.50",
+        "name": "Meniu nr. 15",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 16 - 25,00 lei",
+        "content": "Rata cu portocale (Pulpa de rata, portocale, morcov, ardei gras, zahar, condiment chinezesc) 250g",
+        "visible": true,
+        "price": "25.00",
+        "name": "Meniu nr. 16",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 17 - 25,00 lei",
+        "content": "Prepelita dragon (prepelita, morcov, ardei gras, zahar, condiment chinezesc) 250g",
+        "visible": true,
+        "price": "25.00",
+        "name": "Meniu nr. 17",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 18 - 11,00 lei",
+        "content": "Vita cu telina (pulpa de vita, telina, ceapa, morcov, sos de soia, ardei iute, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, morcov, ou)<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 18",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 19 - 11,00 lei",
+        "content": "Porc Shi-Jin (carne de porc, broccoli, conopida, varza alba, rosii, usturoi, ardei gras verde, ciuperci, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, varza rosie) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 19",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 20 - 11,00 lei",
+        "content": "Porc Shi-Jin (carne de porc, broccoli, conopida, varza alba, rosii, usturoi, ardei gras verde, ciuperci, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 20",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 21 - 12,00 lei",
+        "content": "Pulpe de pui cu ciuperci in sos chinezesc (pulpe de pui, ciuperci, morcov, urechi de lemn, condiment chinezesc, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete cu orez , varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 21",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 22 - 12,00 lei",
+        "content": "Pulpe de pui cu ciuperci in sos chinezesc (pulpe de pui, ciuperci, morcov, urechi de lemn, condiment chinezesc, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, varza rosie) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 22",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 23 - 11,00 lei",
+        "content": "Aripi de pui cu susan(aripi de pui, condiment pui, ou, susan) 200g<br/>Orez cu legume (orez, mazare, morcov, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 23",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 24 - 12,00 lei",
+        "content": "Aripi de pui cu susan(aripi de pui, condiment pui, ou, susan) 200g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou , sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 24",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 25 - 11,00 lei",
+        "content": "Pui cu ananas (piept de pui, ananas, rosii, castraveti, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, morcov, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 25",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 26 - 12,00 lei",
+        "content": "Pui cu ananas (piept de pui, ananas, rosii, castraveti, condiment chinezesc) 150gg<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou , sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 26",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 27 - 12,00 lei",
+        "content": "Legume sute (broccoli, conopida, varza alba, varza China, virfuri de porumb, morcov, castraveti, urechi de lemn, ciuperci)150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 27",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 28 - 11,00 lei",
+        "content": "Pulpe de pui Gan-Bian (pulpe de pui, ardei iute, ceapa, susan, ardei gras) 150g<br/>Orez curry (orez, mazare, morcov, ou, curry) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 28",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 29 - 12,00 lei",
+        "content": "Pulpe de pui Gan-Bian (pulpe de pui, ardei iute, ceapa, susan, ardei gras) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 29",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 30 - 11,00 lei",
+        "content": "Pui dulce acrisor (piept de pui, castraveti, coca, zahar, pasta de tomate, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, morcov, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 30",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 31 - 12,00 lei",
+        "content": "Pui dulce acrisor (piept de pui, castraveti, coca, zahar, pasta de tomate, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 31",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 32 - 11,00 lei",
+        "content": "Piept de pui cu ardei si urechi de lemn (piept de pui, morcovi, ardei gras verde, urechi de lemn, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, varza rosie) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 32",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 33 - 11,00 lei",
+        "content": "Pui in 5 culori (piept de pui, virfuri de porumb, ardei gras, urechi de lemn, usturoi, varza alba, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 33",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 34 - 11,00 lei",
+        "content": "Porc Beijing (carne de porc, ceapa, sos de soia, condiment chinezesc) 150g<br/>Orez cu legume (orez, mazare, varza rosie) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 34",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 35 - 12,00 lei",
+        "content": "Porc Beijing (carne de porc, ceapa, sos de soia, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 35",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 36 - 11,00 lei",
+        "content": "Flori de gheata (cotlet de porc, coca, susan, condiment chinezesc)150g <br/>Orez picant (orez, mazare, morcv, ou, pasta iute) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 36",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 37 - 11,00 lei",
+        "content": "Porc cu aroma de peste (cotlet de porc, coca, condiment chinezesc)150g <br/>Orez picant (orez, mazare, morcv, ou, pasta iute) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 37",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 38 - 11,00 lei",
+        "content": "Porc cu ciuperci in sos alb (cotlet de porc, ciuperci, morcov, usturoi, ghimbir, condiment chinezesc, vin) 150g <br/>Orez cu sos de soia (orez, mazare, morcov, sos soia, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 38",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 39 - 11,00 lei",
+        "content": "Salata de burta (burta de vita, morcov, sos de soia, usturoi, pasta de ardei iute) 250g ",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 39",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 40 - 12,00 lei",
+        "content": "Pipote si inimi de pui cu ardei iute (pipote si inimi de pui, ardei iute, ceapa, ulei de susan, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 40",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 41 - 11,00 lei",
+        "content": "Pui cu masline (piept de pui, ardei gras, ceapa, masline, morcov) 150g<br/>Orez curry (orez, curry, mazare, morcov, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 41",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 42 - 11,00 lei",
+        "content": "Pui specialitatea casei (piept de pui, ardei gras, ceapa, brocoli, conopida, morcov) 150g<br/>Orez cu sos de soia (orez, mazare, morcov, sos soia, ou) 250g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 42",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 43 - 12,00 lei",
+        "content": "Pui in sos de stridii (piept de pui, ardei gras, sos soia, sos stridii, urechi de lemn, ceapa, condiment chinezesc) 150g<br/>Spaghete de orez cu legume (spaghete de orez, varza, morcov, ou, sos de soia) 250g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 43",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 44 - 7,00 lei",
+        "content": "Spaghete de orez cu fructte de mare (spaghete de orez, fructe de mare, morcov, ceapa, varza, sos soia, ou) 250g",
+        "visible": true,
+        "price": "7.00",
+        "name": "Meniu nr. 44",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc Traditional",
+        "title": "Meniu nr. 45 - 6,00 lei",
+        "content": "Spaghete de orez cu pui (spaghete de orez, piept de pui, morcov, ceapa, varza, sos de soia, ou) 250g",
+        "visible": true,
+        "price": "6.00",
+        "name": "Meniu nr. 45",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 46 - 4,50 lei",
+        "content": "Supa acra-picanta (varza alba, morcov, castraveti, otet China, condiment chinezesc) 300g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 46",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 47 - 4,50 lei",
+        "content": "Supa de porumb (porumb boabe, condiment chinezesc) 300g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 47",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 48 - 4,00 lei",
+        "content": "Pachetele de primavara (foi de placinta, varza, morcov) 150g",
+        "visible": true,
+        "price": "4.00",
+        "name": "Meniu nr. 48",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 49 - 9,00 lei",
+        "content": "Specialitate chinezeasca de legume (urechi de lemn, telina, dovlecei, ulei de susan, ghimbir, condiment chinezesc) 300g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 49",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 50 - 12,00 lei",
+        "content": "Legume in 3 culori (ardei gras rosu, salata verde chinezeasca, urechi de lemn, varfuri de porumb, ulei de susan, condiment chinezesc) 300g",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 50",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 51 - 9,00 lei",
+        "content": "Dovlecei si ciuperci in sos (dovlecei, urechi de lemn, ciuperci, ulei de susan, condiment chinezesc) 300g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 51",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 52 - 9,00 lei",
+        "content": "Salata de telina (telina, morcov, urechi de lemn, ulei de susan) 250g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 52",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 53 - 9,00 lei",
+        "content": "Salata de surimi (surimi, castraveti, ulei de susan) 250g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 53",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 54 - 9,00 lei",
+        "content": "Salata Wu Xing (ardei gras, castraveti, ceapa, morcov, rosii, usturoi, varza rosie, alune, sos soia, otet China) 250g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 54",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 55 - 5,00 lei",
+        "content": "Orez cu legume (orez, mazare, morcov) 300g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 55",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 56 - 5,00 lei",
+        "content": "Orez curry (orez, mazare, morcov, curry) 300g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 56",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 57 - 5,00 lei",
+        "content": "Orez picant (orez, mazare, morcov, pasta iute, ou) 300g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 57",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 58 - 5,00 lei",
+        "content": "Orez cu sos de soia (orez, legume mexicane, sos soia, ou) 300g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 58",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 59 - 5,00 lei",
+        "content": "Spaghete de orez cu legume (spaghete de orez, varza, morcov, sos de soia) 250g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 59",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 60 - 4,50 lei",
+        "content": "Salata de ridichi (ridiche alba, ardei gras, morcov, ulei de susan, condiment chinezesc) 250g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 60",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 61 - 9,50 lei",
+        "content": "Salata mixta chinezeasca (urechi de lemn, varza China, ardei gras, ulei de susan) 250g",
+        "visible": true,
+        "price": "9.50",
+        "name": "Meniu nr. 61",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 62 - 12,00 lei",
+        "content": "Salata de spaghete (spaghete de soia, urechi de lemn, morcov, ardei gras rosu si verde, ulei de susan, condiment chinezesc) 250g",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 62",
+        "currency": "lei"
+    },
+    {
+        "type": "Chinezesc de Post",
+        "title": "Meniu nr. 63 - 4,00 lei",
+        "content": "Salata de castraveti (castraveti, ardei gras, alune, otet China, ulei de susan) 250g",
+        "visible": true,
+        "price": "4.00",
+        "name": "Meniu nr. 63",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 64 - 10,00 lei",
+        "content": "Salata greceasca (salata verde, rosii, castraveti, ceapa, ardeigras, masline, feta) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 64",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 65 - 10,00 lei",
+        "content": "Salata de pui cu mandarine (salata verde, rosii, piept de pui, ciuperci, mandarine, pesmet) 300g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 65",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 66 - 10,00 lei",
+        "content": "Salata cu piept de pui (salata verde, piept de pui, cascaval,rosii, castraveti, ceapa, ardei gras) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 66",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 67 - 10,00 lei",
+        "content": "Salata cu ton (salata verde, ton, masline, boabe porumb) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 67",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 68 - 10,00 lei",
+        "content": "Salata bulgareasca (salata verde, rosii, castraveti, ardei gras,sunca presata, telemea, ou) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 68",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 69 - 10,00 lei",
+        "content": "Salata Waldorf (piept de pui, telina, morcov verde, nuca, lamaie) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 69",
+        "currency": "lei"
+    },
+    {
+        "type": "Salate Antreu",
+        "title": "Meniu nr. 70 - 10,00 lei",
+        "content": "Salata de vinete cu rosii concase ( vinete, ceapa, rosii,maioneza) 350g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 70",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 71 - 5,00 lei",
+        "content": "Ciorba de cartofi cu afumatura si tarhon 325g/75g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 71",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 72 - 5,00 lei",
+        "content": "Ciorba de pui cu taitei de casa 325g/75g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 72",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 73 - 5,00 lei",
+        "content": "Ciorba de fasole cu afumaturi 400g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 73",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 74 - 6,50 lei",
+        "content": "Ciorba de burta 300g/100g",
+        "visible": true,
+        "price": "6.50",
+        "name": "Meniu nr. 74",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 75 - 6,50 lei",
+        "content": "Ciorba radauteana 320g/80g",
+        "visible": true,
+        "price": "6.50",
+        "name": "Meniu nr. 75",
+        "currency": "lei"
+    },
+    {
+        "type": "Ciorbe",
+        "title": "Meniu nr. 76 - 6,50 lei",
+        "content": "Ciorba taraneasca de vacuta 360g/40g",
+        "visible": true,
+        "price": "6.50",
+        "name": "Meniu nr. 76",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 77 - 30,00 lei",
+        "content": "Sos de vita la gratar cu sos maitre d'hotel 120g/20g<br/>Rondele de cartofi 200g<br/>",
+        "visible": true,
+        "price": "30.00",
+        "name": "Meniu nr. 77",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 78 - 30,00 lei",
+        "content": "Stroganoff (muschiulet de vita, castraveti murati, ciuperci, ceapa, smantana, mustar, pasta de tomate) 250g",
+        "visible": true,
+        "price": "30.00",
+        "name": "Meniu nr. 78",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 79 - 30,00 lei",
+        "content": "Filetto al pepe verde (muschiulet de vita, cognac, smantana, mustar, piper verde) 120g/80g",
+        "visible": true,
+        "price": "30.00",
+        "name": "Meniu nr. 79",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 80 - 30,00 lei",
+        "content": "Muschi de vita cu rosii cherry (muschiulet de vita, rosii cherry, ceapa, sos tomate) 120g/120g",
+        "visible": true,
+        "price": "30.00",
+        "name": "Meniu nr. 80",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 81 - 15,00 lei",
+        "content": "Rata cu portocale caramelizate (pulpa de rata, portocale, vin) 120g/50g",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 81",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 82 - 30,00 lei",
+        "content": "Piept de rata cu sos de vermouth si mustar de dijon (piept de rata, ceapa, mustar dijon, vermouth, smantana) 120g/100g",
+        "visible": true,
+        "price": "30.00",
+        "name": "Meniu nr. 82",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 83 - 25,00 lei",
+        "content": "Prepelita cu sos de sofran (prepelita, sofran, ceapa, smantana, vin) 100g/100g",
+        "visible": true,
+        "price": "25.00",
+        "name": "Meniu nr. 83",
+        "currency": "lei"
+    },
+    {
+        "type": "Specialitati Gastronomice",
+        "title": "Meniu nr. 84 - 25,00 lei",
+        "content": "Prepelita in crusta de bacon (prepelita, bacon, vin) 140g",
+        "visible": true,
+        "price": "25.00",
+        "name": "Meniu nr. 84",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 85 - 11,00 lei",
+        "content": "Fasjitas de pui 200g (piept de pui, ceapa, ardei gras, sos tomat picat)<br/>Fasole batuta si orez 100g/100g<br/>Lipie 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 85",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 86 - 11,00 lei",
+        "content": "Aripioare de pui crocante 150g<br/>Cartofi prajiti 100g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 86",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 87 - 11,00 lei",
+        "content": "Aripioare de pui dulci-picante 150g<br/>Cartofi dulci-picanti 150g<br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 87",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 88 - 11,00 lei",
+        "content": "Piept de pui cu rosii si cascaval 300g (piept de pui, rosii, sos tomat, cascaval)<br/>Cartofi aurii 150g<br/>Salata asortata 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 88",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 89 - 11,00 lei",
+        "content": "Piept de pui cu rosii si cascaval 300g (piept de pui, rosii, sos tomat, cascaval)<br/>Pilaf 200g<br/>Salata de ardei copti 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 89",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 90 - 11,00 lei",
+        "content": "Piept de pui cu masline si ciuperci 250g (piept de pui, sos tomat, ciuperci, masline)<br/>Cartofi aurii 150g<br/>Salata asortata 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 90",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 91 - 11,00 lei",
+        "content": "Piept de pui cu masline si ciuperci 250g (piept de pui, sos tomat, ciuperci, masline)<br/>Piure de cartofi 200g<br/>Salata asortata 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 91",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 92 - 11,00 lei",
+        "content": "Snitel parisian din piept de pui 100g<br/>Cartofi prajiti 200g<br/>Salata de varza 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 92",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 93 - 11,00 lei",
+        "content": "Snitel parisian din piept de pui 100g<br/>Piure de cartofi 200g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 93",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 94 - 11,00 lei",
+        "content": "Snitel parisian din piept de pui 100g<br/>Orez curry 200g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 94",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 95 - 11,00 lei",
+        "content": "Ostropel de pui (piept de pui, ceapa, morcov, ardei gras, pasta de tomate, usturoi) 250g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 95",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 96 - 11,00 lei",
+        "content": "Ciulama de pui (pulpa de pui, smantana) 250g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 96",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 97 - 12,00 lei",
+        "content": "Pui vienez la cuptor (piept de pui, ceapa, ciuperci, cascaval, cartofi, smantana) 400g<br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 97",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 98 - 12,00 lei",
+        "content": "Valdostana (piept de pui, sunca presata, ciuperci, smantana) 100g/100g<br/>Cartofi copti cu rozmarin 200g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 98",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 99 - 11,00 lei",
+        "content": "Pulpa de pui dezosata la gratar 120g<br/>Cartofi prajiti 200g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 99",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 100 - 11,00 lei",
+        "content": "Pulpa de pui dezosata la gratar 120g<br/>Piure de cartofi 200g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 100",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 101 - 11,00 lei",
+        "content": "Piept de pui la gratar 110g<br/>Piure de cartofi 200g<br/>Catraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 101",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 102 - 10,00 lei",
+        "content": "Piept de pui la gratar 110g<br/>Cartofi natur 200g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 102",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 103 - 11,00 lei",
+        "content": "Pulpa de pui la cuptor 160g<br/>Cartofi natur 200g<br/>Salata de varza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 103",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 104 - 10,00 lei",
+        "content": "Pulpa de pui la cuptor 160g<br/>Cartofi prajiti 100g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 104",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 105 - 11,00 lei",
+        "content": "Ficatei de pui la tigaie 150g<br/>Pilaf 200g<br/>Salata de ardei copti 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 105",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 106 - 11,00 lei",
+        "content": "Ficatei de pui la tigaie 150g<br/>Piure de cartofi 200g<br/>Salata de castraveri murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 106",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 107 - 11,00 lei",
+        "content": "Ficatei de pui cu sos de ceapa 150g<br/>Piure de cartofi 200g<br/>Salata de vaza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 107",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 108 - 11,00 lei",
+        "content": "Ficatei de pui cu sos de ceapa 150g<br/>Branza de burduf 30g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 108",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 109 - 11,00 lei",
+        "content": "Ficatei de pui cu sos tomat 150g<br/>Pilaf 200g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 109",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 110 - 11,00 lei",
+        "content": "Ficatei de pui la gratar 150g<br/>Piure de cartofi 200g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 110",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 111 - 11,00 lei",
+        "content": "Ficatei de pui cu sos tomat 150g<br/>Piure de cartofi 200g<br/>Salata de ardei copti 100g<br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 111",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 112 - 11,00 lei",
+        "content": "Ficatei de pui cu sos tomat 150g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 112",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 113 - 12,00 lei",
+        "content": "Rulou de pui cu sos alb taranesc (piept de pui, cascaval, smantana, masline, ou) 130g/100<br/>Piure de cartofi 200g<br/>Castraveti murati 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 113",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 114 - 12,00 lei",
+        "content": "Rulou de pui cu sos alb taranesc (piept de pui, cascaval, smantana, masline, ou) 130g/100<br/>Pilaf 200g<br/>Salata asortata 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 114",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 115 - 12,00 lei",
+        "content": "Portofel de pui umplut cu sunca si cascaval 150g<br/>Piure de cartofi 200g<br/>Salata de vaza murata 100g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 115",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 116 - 20,00 lei",
+        "content": "Pui la ceaun cu sos de ceapa (pui,ceapa,mujdei de usturoi,vin) 500g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "20.00",
+        "name": "Meniu nr. 116",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 117 - 20,00 lei",
+        "content": "Jumatati de pui parfumati, usor dulce-picant 500g<br/>Cartofi copti cu rosmarin 200g<br/>Salata de vaza 75g <br/>Paine 100g<br/>",
+        "visible": true,
+        "price": "20.00",
+        "name": "Meniu nr. 117",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 118 - 6,00 lei",
+        "content": "Piept de pui la garatar 100g",
+        "visible": true,
+        "price": "6.00",
+        "name": "Meniu nr. 118",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 119 - 6,00 lei",
+        "content": "Pulpa de pui dezosata la garatar 110g",
+        "visible": true,
+        "price": "6.00",
+        "name": "Meniu nr. 119",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de pui",
+        "title": "Meniu nr. 120 - 6,00 lei",
+        "content": "Snitel parisian din piept de pui 100g",
+        "visible": true,
+        "price": "6.00",
+        "name": "Meniu nr. 120",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 121 - 12,00 lei",
+        "content": "Tochitura moldoveneasca 200g/30g<br/>(pulpa de porc, kaiser,carnati , ficatei, branza de burduf,ou)<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 121",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 122 - 12,00 lei",
+        "content": "Tochitura dobrogeana 250g<br/>(pulpa de porc, sos tomat)<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 122",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 123 - 11,00 lei",
+        "content": "Cotlet de porc la gratar 110g<br/>Cartofi cu smantana 150g <br/>Salata de varza 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 123",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 124 - 11,00 lei",
+        "content": "Cotlet de porc la gratar 110g<br/>Cartofi prajiti 150g <br/>Castraveti murati 100 g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 124",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 125 - 11,00 lei",
+        "content": "Cotlet de porc la gratar 110g<br/>Pilaf 200g <br/>Salata de ardei copti 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 125",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 126 - 11,00 lei",
+        "content": "Bistecca alla parmigiana 200g (snitel de porc, sunca presata, cascaval, sos tomat)<br/>Cartofi aurii 150g <br/>Salata de varza 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 126",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 127 - 11,00 lei",
+        "content": "Bistecca alla parmigiana 200g (snitel de porc, sunca presata, cascaval, sos tomat)<br/>Piure de cartofi 200g <br/>Salata asortata 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 127",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 128 - 14,00 lei",
+        "content": "Coaste de porc la gratar 250g<br/>Cartofi taranesti 150g <br/>Salata de varza 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "14.00",
+        "name": "Meniu nr. 128",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 129 - 14,00 lei",
+        "content": "Fasole cu coaste de porc 200g/200g<br/>Castraveti murati 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "14.00",
+        "name": "Meniu nr. 129",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 130 - 12,00 lei",
+        "content": "Escalop a la Zingara 100g/100g (cotlet de porc, kaiser, sos tomat)<br/>Piure de cartofi 200g <br/>Salata de varza 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 130",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 131- 12,00 lei",
+        "content": "Escalop a la Zingara 100g/100g (cotlet de porc, kaiser, sos tomat)<br/>Cartofi aurii 150g <br/>Castraveti murati 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 131",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 132- 12,00 lei",
+        "content": "Escalop a la Zingara 100g/100g (cotlet de porc, kaiser, sos tomat)<br/>Pilaf 200g <br/>Salata de sfecla rosie cu hrean <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 132",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 133 - 11,00 lei",
+        "content": "Pulpa de porc la cuptor 100g<br/>Piure de cartofi 200g<br/>Salata de varza murata 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 133",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 134 - 11,00 lei",
+        "content": "Pulpa de porc la cuptor 100g<br/>Cartofi copti cu rosmarin 200g<br/>Salata de varza 75g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 134",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 135 - 11,00 lei",
+        "content": "Snitel parisian din muschiulet de porc 100g<br/>Piure de cartofi 200g<br/>Castraveti murati 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 135",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 136 - 11,00 lei",
+        "content": "Snitel parisian din muschiulet de porc 100g<br/>Pilaf 200g<br/>Salata de sfecla rosie cu hrean 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 136",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 137 - 11,00 lei",
+        "content": "Snitel parisian din muschiulet de porc 100g<br/>Cartofi prajiti 200g<br/>Salata de vaza murata 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 137",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 138 - 11,00 lei",
+        "content": "Cirnati de porc la cuptor 90g<br/>Piure de cartofi 200g<br/>Castraveti murati 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 138",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 139 - 11,00 lei",
+        "content": "Cirnati de porc la cuptor 90g<br/>Pilaf 200g<br/>Salata de sfecla rosie cu hrean 100g <br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "11.00",
+        "name": "Meniu nr. 139",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din carne de porc",
+        "title": "Meniu nr. 140 - 12,00 lei",
+        "content": "Sote de purcelus gratinat cu cascaval (muschiulet de porc, ceapa, ciuperci, cascaval, smantana) 400g<br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "12.00",
+        "name": "Meniu nr. 140",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din peste",
+        "title": "Meniu nr. 141 - 15,00 lei",
+        "content": "Crap prajit 160g<br/>Mamaliguta 200g<br/>Mujdei de usturoi 30g <br/>",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 141",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din peste",
+        "title": "Meniu nr. 142 - 15,00 lei",
+        "content": "Crap cu sos tiganesc 150g/100g<br/>Mamaliguta 200g<br/>",
+        "visible": true,
+        "price": "15.00",
+        "name": "Meniu nr. 142",
+        "currency": "lei"
+    },
+    {
+        "type": "Preparate din peste",
+        "title": "Meniu nr. 143 - 20,00 lei",
+        "content": "Pastrav la gratar cu lamaie 160g<br/>Cartofi nature 200g<br/>Paine 80g<br/>",
+        "visible": true,
+        "price": "20.00",
+        "name": "Meniu nr. 143",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 144 - 6,00 lei",
+        "content": "Salata orientala (cartofi, castraveti, rosii, salata verde, ceapa, masline) 350g",
+        "visible": true,
+        "price": "6.00",
+        "name": "Meniu nr. 144",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 145 - 5,00 lei",
+        "content": "Salata de fasole (fasole alba, castraveti, ceapa, salata verde, rosii) 350g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 145",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 146 - 7,00 lei",
+        "content": "Fasole batuta 300g",
+        "visible": true,
+        "price": "7.00",
+        "name": "Meniu nr. 146",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 147 - 10,00 lei",
+        "content": "Salata de vinete cu rosii concase ( vinete, ceapa, rosii) 250g",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 147",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 148 - 4,50 lei",
+        "content": "Ciorba de legume 400g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 148",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 149 - 4,50 lei",
+        "content": "Ciorba de fasole 400g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 149",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 150 - 10,00 lei",
+        "content": "Ardei umpluti cu ciuperci 200g<br/>Mamaliguta 200g <br/>",
+        "visible": true,
+        "price": "10.00",
+        "name": "Meniu nr. 150",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 151 - 9,00 lei",
+        "content": "Ciuperci cu mujdei de usturoi 180g<br/>Mamaliguta 200g <br/>",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 151",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 152 - 9,00 lei",
+        "content": "Ciupercute la gratar stropite cu vin si usturoi 200g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 152",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 153 - 9,00 lei",
+        "content": "Legume la cuptor (dovlecei, vinete, morcov, ciuperci, rosii, sos de soia) 250g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 153",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 154 - 9,00 lei",
+        "content": "Legume la gratar (dovlecei, vinete, ciuperci, ceapa, rosii, ardei iuti) 250g",
+        "visible": true,
+        "price": "9.00",
+        "name": "Meniu nr. 154",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 155 - 4,50 lei",
+        "content": "Dovlecei pane 250g",
+        "visible": true,
+        "price": "4.50",
+        "name": "Meniu nr. 155",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 156 - 5,00 lei",
+        "content": "Snitel soia 200g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 156",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 157 - 7,00 lei",
+        "content": "Varza calita 250g",
+        "visible": true,
+        "price": "7.00",
+        "name": "Meniu nr. 157",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 158 - 7,00 lei",
+        "content": "Broccoli sote 250g",
+        "visible": true,
+        "price": "7.00",
+        "name": "Meniu nr. 158",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 159 - 5,00 lei",
+        "content": "Orez cu ciuperci 200g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 159",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 160 - 4,00 lei",
+        "content": "Cartofi taranesti (cartofi, ceapa , usturoi) 200g",
+        "visible": true,
+        "price": "4.00",
+        "name": "Meniu nr. 160",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 161 - 3,00 lei",
+        "content": "Piure de cartofi 200g",
+        "visible": true,
+        "price": "3.00",
+        "name": "Meniu nr. 161",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 162 - 3,50 lei",
+        "content": "Cartofi prajiti 200g",
+        "visible": true,
+        "price": "3.50",
+        "name": "Meniu nr. 162",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 163 - 3,00 lei",
+        "content": "Cartofi aurii 200g",
+        "visible": true,
+        "price": "3.00",
+        "name": "Meniu nr. 163",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 164 - 4,00 lei",
+        "content": "Cartofi copti cu rozmarin 200g",
+        "visible": true,
+        "price": "4.00",
+        "name": "Meniu nr. 164",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 165 - 3,00 lei",
+        "content": "Cartofi natur 200g",
+        "visible": true,
+        "price": "3.00",
+        "name": "Meniu nr. 165",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 166 - 5,00 lei",
+        "content": "Salata asortata (rosii, castraveti, salata verde, ceapa) 200g",
+        "visible": true,
+        "price": "5.00",
+        "name": "Meniu nr. 166",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 167 - 2,50 lei",
+        "content": "Salata varza 200g",
+        "visible": true,
+        "price": "2.50",
+        "name": "Meniu nr. 167",
+        "currency": "lei"
+    },
+    {
+        "type": "Meniu de post romanesc",
+        "title": "Meniu nr. 168 - 4,00 lei",
+        "content": "Salata de castraveti murati 200g",
+        "visible": true,
+        "price": "4.00",
+        "name": "Meniu nr. 168",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 169 - 5,0 lei",
+        "content": "Eclere cu crema de vanilie 140gr/ 2 buc",
+        "visible": true,
+        "price": "5.0",
+        "name": "Meniu nr. 169",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 170 - 9,0 lei",
+        "content": "Papanasi cu smantana si dulceata 150 gr buc",
+        "visible": true,
+        "price": "9.0",
+        "name": "Meniu nr. 170",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 171 - 6,0 lei",
+        "content": "Placinta cu mere 200gr buc",
+        "visible": true,
+        "price": "6.0",
+        "name": "Meniu nr. 171",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 172 - 8,0 lei",
+        "content": "Clatite cu branza de vaci si stafide 200gr/2 buc",
+        "visible": true,
+        "price": "8.0",
+        "name": "Meniu nr. 172",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 173 - 5,0 lei",
+        "content": "undefined",
+        "visible": true,
+        "price": "5.0",
+        "name": "Meniu nr. 173",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 174 - 5,0 lei",
+        "content": "Clatite cu dulceata 2 buc",
+        "visible": true,
+        "price": "5.0",
+        "name": "Meniu nr. 174",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 175 - 6,0 lei",
+        "content": "Clatite cu ciocolata si ananas 2 buc",
+        "visible": true,
+        "price": "6.0",
+        "name": "Meniu nr. 175",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 176 - 9,0 lei",
+        "content": "Salata de fructe 350 gr<br/>(portocale, kiwi,banane, struguri,mere,frisca,sirop de fructe)<br/>",
+        "visible": true,
+        "price": "9.0",
+        "name": "Meniu nr. 176",
+        "currency": "lei"
+    },
+    {
+        "type": "Desert",
+        "title": "Meniu nr. 177 - 9,0 lei",
+        "content": "Fructe flambate 300 gr<br/>(portocale, kiwi,banane, struguri,mere,cognac)<br/>",
+        "visible": true,
+        "price": "9.0",
+        "name": "Meniu nr. 177",
+        "currency": "lei"
+    },
+    {
+        "type": "Sosuri",
+        "title": "Sos picant - 1,0 lei",
+        "content": "Cantitate - 50 ml",
+        "visible": true,
+        "price": "1.0",
+        "name": "Sos picant",
+        "currency": "lei"
+    },
+    {
+        "type": "Sosuri",
+        "title": "Sos dulce - 1,0 lei",
+        "content": "Cantitate - 50 ml",
+        "visible": true,
+        "price": "1.0",
+        "name": "Sos dulce",
+        "currency": "lei"
+    },
+    {
+        "type": "Sosuri",
+        "title": "Sos de soia - 1,0 lei",
+        "content": "Cantitate - 50 ml",
+        "visible": true,
+        "price": "1.0",
+        "name": "Sos de soia",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Cascaval pane - 9,0 lei",
+        "content": "Cantitate - 150 g",
+        "visible": true,
+        "price": "9.0",
+        "name": "Cascaval pane",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Branza cu smantana - 9,0 lei",
+        "content": "Cantitate - 200g/100g",
+        "visible": true,
+        "price": "9.0",
+        "name": "Branza cu smantana",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Branza de burduf - 9,0 lei",
+        "content": "Cantitate - 100g",
+        "visible": true,
+        "price": "9.0",
+        "name": "Branza de burduf",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Ochiuri - 1,5 lei",
+        "content": "Cantitate - 1 buc",
+        "visible": true,
+        "price": "1.5",
+        "name": "Ochiuri",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Paine - 0,5 lei",
+        "content": "Cantitate - 80g",
+        "visible": true,
+        "price": "0.5",
+        "name": "Paine",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Mamaliguta - 2,0 lei",
+        "content": "Cantitate - 200g",
+        "visible": true,
+        "price": "2.0",
+        "name": "Mamaliguta",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Smantana - 1,0 lei",
+        "content": "Cantitate - 50g",
+        "visible": true,
+        "price": "1.0",
+        "name": "Smantana",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Ardei iute - 0,5 lei",
+        "content": "Cantitate - 1 buc",
+        "visible": true,
+        "price": "0.5",
+        "name": "Ardei iute",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Mujdei de usturoi - 1,0 lei",
+        "content": "Cantitate - 50g",
+        "visible": true,
+        "price": "1.0",
+        "name": "Mujdei de usturoi",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Maioneza - 1,0 lei",
+        "content": "Cantitate - 50g",
+        "visible": true,
+        "price": "1.0",
+        "name": "Maioneza",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Mustar - 1,5 lei",
+        "content": "Cantitate - 50g",
+        "visible": true,
+        "price": "1.5",
+        "name": "Mustar",
+        "currency": "lei"
+    },
+    {
+        "type": "Diverse",
+        "title": "Sos de lamaie - 1,5 lei",
+        "content": "Cantitate - 50g",
+        "visible": true,
+        "price": "1.5",
+        "name": "Sos de lamaie",
+        "currency": "lei"
+    }
+]

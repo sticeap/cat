@@ -1,0 +1,74 @@
+/*@import "compass_twitter_bootstrap";*/
+
+body {
+    background-color: #fff;
+}
+.metrouicss .page {
+    width: 940px ;
+    margin: auto;
+    background-color: #fff;
+}
+
+.avatar{
+	width: 40px;
+	height:40px;
+	border: none;
+
+	&.no-avatar{
+		
+	}
+}
+
+.metrouicss .listview li .data p {
+	height:51px;
+	overflow: hidden;
+	font-size: 10px;
+	line-height:10px;
+}
+.metrouicss #dialogOverlay{
+	z-index: 9999;
+}
+
+#page-content-view{
+	position: relative;
+
+}
+#loading{
+	background: rgba(255,255, 255, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 99999;
+	display: block;
+
+	#loading-image{
+		background-image: url(../images/preloader-w8-cycle-black.gif);
+		position: absolute;
+		top:50%;
+		left:50%;
+		margin-top:-32px;
+		margin-left:-32px;
+		width: 64px;
+		height:64px;
+	}
+	#login-button-google{
+		position: absolute;
+		top:50%;
+		left:50%;
+		margin-left:-165px;
+
+		.icon-google, .icon-share-3{
+			font-size: 30px;
+			line-height: 40px;
+
+			.text{
+				float:right;
+				width: 240px;
+				line-height: 20px;
+				font-size: 16px;
+			}
+		}
+	}
+}

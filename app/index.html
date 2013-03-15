@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" ng-app="cateringApp">
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Metro UI CSS">
+    <meta name="keywords" content="windows 8, modern style, Metro UI, style, modern, css, framework">
+    <style type="text/css">
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none;
+        }
+    </style>
+    <!-- <link href="components/angular-ui/build/angular-ui.min.css" rel="stylesheet" type="text/css"/> -->
+    <link href="styles/modern.css" rel="stylesheet">
+    <link href="styles/modern-responsive.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+    <title>Catering App</title>
+</head>
+<body class="metrouicss ng-cloak">
+    <div class="page" style="position:relative;">
+        <div class="nav-bar" ng-controller="Menu">
+            <div class="nav-bar-inner padding10">
+                <span class="pull-menu"></span>
+
+                <a href="{{homepage}}"><span class="element brand">
+                    <img class="place-left" src="images/logo32.png" style="height: 20px"/>
+                    Catering <small >v{{version}}</small>
+                </span></a>
+
+                <div class="divider"></div>
+
+                <ul class="menu">
+                    <li ng-repeat="menu in menus" ng-class="{'dropdown' : menu.submenu}" render-menu>
+                        <a href="{{menu.src}}" class="menu_link">{{menu.name}}</a>
+                        <ul class="dropdown-menu" ng-show="menu.submenu">
+                            <li ng-repeat="submenu in menu.submenu" ng-class="{'divider' : submenu.type == 'divider'}"><a href="{{submenu.src}}"><i class="{{submenu.icon}}"></i> {{submenu.name}}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" ng-click="user.login()" id="button_login"><!-- <i class="icon-locked" ng-class="{'icon-unlocked' : user.logged}"></i> -->{{user.text}}</a></li>
+                    <li class="place-right"><img class="avatar" ng-class="{'no-avatar' : user.avatar==''}" ng-src="{{user.avatar}}"/></li>
+                    <li class="place-right"><span> {{user.name}}<br/>{{user.email}}</span></li>
+                </ul>
+
+            </div>
+            <div id="loading" ng-show="loading">
+                <div id="loading-image" ng-hide="hideloader"></div>
+                <button class="command-button" id="login-button-google" ng-show="hideloader" ng-click="user.login()">
+                    <span class="icon-google">
+                        <span class="text">
+                            Login with Google Account<br/>
+                            <small>Use this option for catering</small>
+                        <span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-content-view">
+        <div ng-view></div>
+    </div>
+
+    <div class="page" style="z-index:1;">
+        <div class="nav-bar">
+            <div class="nav-bar-inner padding10">
+                <span class="element">
+                    2013 &copy; Catering Menus
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="components/yepnope/yepnope.js"></script>
+    <script src="components/jquery/jquery.js"></script>
+    <script src="components/jquery-ui/ui/jquery-ui.custom.js"></script>
+    <script src="components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    
+    <script type="text/javascript" src="scripts/modern/dialog.js"></script>
+    <script type="text/javascript" src="scripts/modern/dropdown.js"></script>
+    <script type="text/javascript" src="scripts/modern/accordion.js"></script>
+    <script type="text/javascript" src="scripts/modern/buttonset.js"></script>
+    <script type="text/javascript" src="scripts/modern/carousel.js"></script>
+    <script type="text/javascript" src="scripts/modern/input-control.js"></script>
+    <script type="text/javascript" src="scripts/modern/pagecontrol.js"></script>
+    <script type="text/javascript" src="scripts/modern/rating.js"></script>
+    <script type="text/javascript" src="scripts/modern/slider.js"></script>
+    <script type="text/javascript" src="scripts/modern/tile-slider.js"></script>
+    <script type="text/javascript" src="scripts/modern/tile-drag.js"></script>
+    <script type="text/javascript" src="scripts/modern/calendar.js"></script>
+
+    <script src="components/angular/angular.js"></script>
+    <script src="components/angular-resource/angular-resource.js"></script>
+    <script src="components/angular-cookies/angular-cookies.js"></script>
+    <script src="components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="components/angular-ui/build/angular-ui.min.js"></script>
+
+    <!-- build:js scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/menus.js"></script>
+    <script src="scripts/directives/searchmenu.js"></script>
+    <script src="scripts/directives/rendermenu.js"></script>
+    <script src="scripts/filters/menutype.js"></script>
+    <script src="scripts/services/config.js"></script>
+    <script src="scripts/services/login.js"></script>
+    <script src="scripts/services/logincheck.js"></script>
+    
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    </body>
+</html>
