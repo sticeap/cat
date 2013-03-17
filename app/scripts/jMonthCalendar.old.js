@@ -102,7 +102,7 @@
 				return eval('(' + jsonDateString + ')');
 			}
 			
-			return tdt;
+			return tDt;
 		}
 	};
 	jQuery.jMonthCalendar = jQuery.J = function() {};
@@ -125,14 +125,18 @@
 		
 		// Create Previous Month link for later
 		var prevMonth = d.getMonth() == 0 ? new Date(d.getFullYear()-1, 11, 1) : new Date(d.getFullYear(), d.getMonth()-1, 1);
-		var prevMLink = jQuery('<div class="MonthNavPrev"><a href="" class="link-prev">'+ defaults.navLinks.p +'</a></div>').click(function() {
+		var prevMLink = jQuery('<div class="MonthNavPrev"><a href="" class="link-prev">'+ defaults.navLinks.p +'</a></div>').click(function(e) {
+			e.preventDefault();
+			e.stopPropagation();
 			jQuery.J.ChangeMonth(prevMonth);
 			return false;
 		});
 		
 		//Create Next Month link for later
 		var nextMonth = d.getMonth() == 11 ? new Date(d.getFullYear()+1, 0, 1) : new Date(d.getFullYear(), d.getMonth()+1, 1);
-		var nextMLink = jQuery('<div class="MonthNavNext"><a href="" class="link-next">'+ defaults.navLinks.n +'</a></div>').click(function() {
+		var nextMLink = jQuery('<div class="MonthNavNext"><a href="" class="link-next">'+ defaults.navLinks.n +'</a></div>').click(function(e) {
+			e.preventDefault();
+			e.stopPropagation();
 			jQuery.J.ChangeMonth(nextMonth);
 			return false;
 		});
@@ -141,7 +145,9 @@
 		var prevYear = new Date(d.getFullYear()-1, d.getMonth(), d.getDate());
 		var prevYLink;
 		if(defaults.navLinks.enablePrevYear) {
-			prevYLink = jQuery('<div class="YearNavPrev"><a href="">'+ prevYear.getFullYear() +'</a></div>').click(function() {
+			prevYLink = jQuery('<div class="YearNavPrev"><a href="">'+ prevYear.getFullYear() +'</a></div>').click(function(e) {
+				e.preventDefault();
+				e.stopPropagation();
 				jQuery.J.ChangeMonth(prevYear);
 				return false;
 			});
@@ -151,7 +157,9 @@
 		var nextYear = new Date(d.getFullYear()+1, d.getMonth(), d.getDate());
 		var nextYLink;
 		if(defaults.navLinks.enableNextYear) {
-			nextYLink = jQuery('<div class="YearNavNext"><a href="">'+ nextYear.getFullYear() +'</a></div>').click(function() {
+			nextYLink = jQuery('<div class="YearNavNext"><a href="">'+ nextYear.getFullYear() +'</a></div>').click(function(e) {
+				e.preventDefault();
+				e.stopPropagation();
 				jQuery.J.ChangeMonth(nextYear);
 				return false;
 			});
@@ -160,7 +168,9 @@
 		var todayLink;
 		if(defaults.navLinks.enableToday) {
 			//Create Today link for later
-			todayLink = jQuery('<div class="TodayLink"><a href="" class="link-today">'+ defaults.navLinks.t +'</a></div>').click(function() {
+			todayLink = jQuery('<div class="TodayLink"><a href="" class="link-today">'+ defaults.navLinks.t +'</a></div>').click(function(e) {
+				e.preventDefault();
+				e.stopPropagation();
 				jQuery.J.ChangeMonth(new Date());
 				return false;
 			});
@@ -170,8 +180,8 @@
 		var navRow = jQuery('<tr><td colspan="7"><div class="FormHeader MonthNavigation"></div></td></tr>').css({ "height" : defaults.navHeight });
 		var monthNavHead = jQuery('.MonthNavigation', navRow);
 		
-		monthNavHead.append(prevMLink, nextMLink);
-		if(defaults.navLinks.enableToday) { monthNavHead.append(todayLink); }
+		monthNavHead.append(prevMLink, (defaults.navLinks.enableToday ? todayLink : ''), nextMLink);
+		//if(defaults.navLinks.enableToday) { monthNavHead.append(todayLink); }
 
 		monthNavHead.append(jQuery('<div class="MonthName"></div>').append(defaults.locale.months[d.getMonth()] + " " + d.getFullYear()));
 		
@@ -243,7 +253,7 @@
 				}
 				
 				//DateBox Events
-				var dateLink = jQuery('<div class="DateLabel"><a href="">' + _currentDate.getDate() + '</a></div>').click(function(e) {
+				var dateLink = jQuery('<div class="DateLabel">' + _currentDate.getDate() + '</div>').click(function(e) {
                     defaults.onDayLinkClick(new Date($(this).parent().attr("date")));
                     e.stopPropagation();
                 });
@@ -265,12 +275,23 @@
                             $(this).append(ui.draggable);
                             var event;
                             $.each(calendarEvents, function() {
-                                if (this.EventID == ui.draggable.attr("id")) {
+                                if ('Event_' + this.EventID == ui.draggable.attr("id")) {
                                     event = this;
                                 }
                             });
+                            ui.draggable.parent().addClass(event.CssClass);
                             defaults.onEventDropped(event, $(this).attr("date"));
 							return false;
+                        },
+                        out: function(e, ui){
+                        	var event;
+                        	$.each(calendarEvents, function() {
+                                if ('Event_' + this.EventID == ui.draggable.attr("id")) {
+                                    event = this;
+                                    if(ui.draggable.parent().find('.Event').length == 1)
+                        				ui.draggable.parent().removeClass(event.CssClass);
+                                }
+                            });
                         }
                     });
                 }
@@ -291,7 +312,7 @@
 		
 		a.hide();
 		a.html(cal);		
-		a.fadeIn("normal");
+		a.show();
 		
 		DrawEventsOnCalendar();
 	}
@@ -332,15 +353,17 @@
 						var cell = jQuery("#" + getDateId(sDt), jQuery(ids.container));
 						var label = jQuery(".DateLabel", cell);
 						
-						var link = jQuery('<a href="' + ev.URL + '">' + ev.Title + '</a>');
+						var link = ev.URL!= "" ? jQuery('<a href="' + ev.URL + '">' + ev.Title + '</a>') : jQuery('<span>' + ev.Title + '</span>');
 						link.click(function(e) {
 							defaults.onEventLinkClick(ev);
-							e.stopPropagation();
+							//e.stopPropagation();
 						});
 						var event = jQuery('<div class="Event" id="Event_' + ev.EventID + '"></div>').append(link);
 						
 						
-						if(ev.CssClass) { event.addClass(ev.CssClass) }
+						if(ev.CssClass) { 
+							cell.addClass(ev.CssClass);
+						}
 						event.click(function(e) { 
 							defaults.onEventBlockClick(ev); 
 							e.stopPropagation(); 
@@ -353,7 +376,7 @@
 						
 						event.hide();
 						cell.append(event);
-						event.fadeIn("normal");
+						event.show();
 					}
 				}
 			});

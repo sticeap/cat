@@ -79,23 +79,18 @@
         // Setting initial position
         if(params.position.zone == "left")
         {
-            $('#dialogBox').css("top", Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3) + 
-                                                $(window).scrollTop()) + "px");
+            $('#dialogBox').css("top", Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3)) + "px");
             $('#dialogBox').css("left", 0);
         } 
         else if(params.position.zone == "right")
         {
-            $('#dialogBox').css("top", Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3) + 
-                                                $(window).scrollTop()) + "px");
-            $('#dialogBox').css("left", Math.max(0, (($(window).width() - $('#dialogBox').outerWidth())) + 
-                                                            $(window).scrollLeft()) + "px");
+            $('#dialogBox').css("top", Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3)) + "px");
+            $('#dialogBox').css("left", Math.max(0, ($(window).width() - $('#dialogBox').outerWidth()) ) + "px");
         } 
         else
         {
-            $('#dialogBox').css("top", (params.position.offsetY)?(params.position.offsetY):(Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3) + 
-                                                                                                $(window).scrollTop()) + "px"));
-            $('#dialogBox').css("left", (params.position.offsetX)?(params.position.offsetX):(Math.max(0, (($(window).width() - $('#dialogBox').outerWidth()) / 2) + 
-                                                                                                $(window).scrollLeft()) + "px"));
+            $('#dialogBox').css("top", (params.position.offsetY)?(params.position.offsetY):(Math.max(0, (($(window).height() - $('#dialogBox').outerHeight()) / 3)) + "px"));
+            $('#dialogBox').css("left", (params.position.offsetX)?(params.position.offsetX):(Math.max(0, (($(window).width() - $('#dialogBox').outerWidth()) / 2)) + "px"));
         }
 
         if(params.draggable) {

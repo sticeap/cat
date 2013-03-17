@@ -18,22 +18,10 @@
                 <li class="sticker sticker-color-pink dropdown active" data-role="dropdown" ui-jq="Dropdown">
                     <a>Notes</a>
                     <ul class="sub-menu light sidebar-dropdown-menu open" ng-click="stopPropagation($event);">
-                        <!-- <li>
-                            <label class="input-control radio">
-                                <input type="radio" ng-model="selectedPrice" name="sssssssss" value="5">
-                                <span class="helper">< 5 lei</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="input-control radio">
-                                <input type="radio" ng-model="selectedPrice" name="sssssssss" value="12">
-                                <span class="helper">< 12 lei</span>
-                            </label>
-                        </li> --> 
                         <li ng-repeat="price in prices">
                             <label class="input-control radio">
                                 <input type="radio" ng-model="$parent.selectedPrice" name="sssssssss" value="{{price}}">
-                                <span class="helper"> &lt;= {{price}} lei</span>
+                                <span class="helper"> &#8804; {{price}} lei</span>
                             </label>
                         </li>
                     </ul>

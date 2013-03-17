@@ -1,1 +1,142 @@
-/* Will be compiled down to a single stylesheet with your sass files */
+/*@import "compass_twitter_bootstrap";*/
+body {
+  background-color: #fff; }
+
+.metrouicss .page {
+  width: 940px;
+  margin: auto;
+  background-color: #ffffff; }
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: none; }
+
+.metrouicss .listview li .data p {
+  height: 51px;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 10px; }
+
+.metrouicss #dialogOverlay {
+  z-index: 9999; }
+
+#page-content-view {
+  position: relative; }
+
+#loading {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  display: block; }
+  #loading #loading-image {
+    background-image: url(../images/preloader-w8-cycle-black.gif);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+    width: 64px;
+    height: 64px; }
+  #loading #login-button-google {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -165px; }
+    #loading #login-button-google .icon-google, #loading #login-button-google .icon-share-3 {
+      font-size: 30px;
+      line-height: 40px; }
+      #loading #login-button-google .icon-google .text, #loading #login-button-google .icon-share-3 .text {
+        float: right;
+        width: 240px;
+        line-height: 20px;
+        font-size: 16px; }
+
+#jMonthCalendar {
+  position: relative; }
+  #jMonthCalendar .Event {
+    font-size: 12px;
+    cursor: pointer;
+    display: block; }
+    #jMonthCalendar .Event a {
+      text-decoration: none;
+      color: #000; }
+      #jMonthCalendar .Event a:hover {
+        text-decoration: underline; }
+
+.MonthlyCalendar {
+  height: 100%;
+  width: 100%;
+  border: solid 1px #ddd;
+  border-collapse: collapse; }
+  .MonthlyCalendar .MonthNavigation {
+    clear: both;
+    height: 20px;
+    padding: 5px 10px 0 10px; }
+  .MonthlyCalendar .MonthNavPrev, .MonthlyCalendar .MonthNavNext, .MonthlyCalendar .TodayLink {
+    padding: 0px 10px;
+    float: left; }
+  .MonthlyCalendar .YearNavNext, .MonthlyCalendar .YearNavPrev {
+    width: 10%;
+    float: right; }
+  .MonthlyCalendar .MonthName {
+    width: 59%;
+    text-align: center;
+    font-weight: bold;
+    float: left; }
+  .MonthlyCalendar #CalendarHead {
+    width: 100%;
+    background: #F7F7F7 none repeat scroll 0 0; }
+    .MonthlyCalendar #CalendarHead tr td {
+      padding: 0px !important; }
+    .MonthlyCalendar #CalendarHead .DateHeader {
+      width: 14%;
+      text-align: center;
+      padding: 0px !important; }
+      .MonthlyCalendar #CalendarHead .DateHeader.Weekend {
+        background: #ffdfdf; }
+      .MonthlyCalendar #CalendarHead .DateHeader span {
+        font-size: 12px; }
+  .MonthlyCalendar #CalendarBody .DateBox {
+    vertical-align: top;
+    border-right: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    padding: 0px !important;
+    cursor: pointer; }
+    .MonthlyCalendar #CalendarBody .DateBox:first-child {
+      border-left: solid 1px #ddd; }
+    .MonthlyCalendar #CalendarBody .DateBox.Today {
+      background: #A9DFFF; }
+  .MonthlyCalendar #CalendarBody .Weekend {
+    background: #ffdfdf; }
+  .MonthlyCalendar #CalendarBody .Inactive {
+    background: #f1f1f1; }
+    .MonthlyCalendar #CalendarBody .Inactive.Weekend {
+      background: #f7e9e9; }
+
+.Meeting {
+  background-color: #daffb6 !important; }
+
+.Birthday {
+  background-color: #ffb6fb !important; }
+
+.MoreEvents {
+  cursor: pointer; }
+
+.DateLabel {
+  height: 1px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.1); }
+
+.DateLabel a {
+  cursor: pointer;
+  padding: 0 5px 2px;
+  text-decoration: none;
+  line-height: 16px; }

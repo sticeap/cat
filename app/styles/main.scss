@@ -6,7 +6,7 @@ body {
 .metrouicss .page {
     width: 940px ;
     margin: auto;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .avatar{
@@ -72,3 +72,123 @@ body {
 		}
 	}
 }
+
+        
+#jMonthCalendar { 
+	position:relative; 
+	
+	.Event { 
+		font-size:12px;
+		cursor:pointer;
+		display:block;
+		a { 
+			text-decoration:none; 
+			color:#000; 
+
+			&:hover { 
+				text-decoration:underline; 
+			}
+		}
+	}
+}
+
+.MonthlyCalendar {
+	height:100%; 
+	width:100%; 
+	border:solid 1px #ddd; 
+	border-collapse:collapse;
+
+	.MonthNavigation { 
+		clear:both; 
+		height:20px; 
+		padding:5px 10px 0 10px; 
+	}
+	.MonthNavPrev, .MonthNavNext, .TodayLink { 
+		padding:0px 10px; 
+		float:left; 
+	}
+	.YearNavNext, .YearNavPrev { 
+		width:10%; 
+		float:right; 
+	}
+	.MonthName { 
+		width:59%; 
+		text-align:center; 
+		font-weight:bold; 
+		float:left; 
+	}
+	#CalendarHead { 
+		width:100%; 
+		background:#F7F7F7 none repeat scroll 0 0; 
+
+		tr{
+			td {
+				padding: 0px !important;
+			}
+		}
+
+		.DateHeader { 
+			width:14%; 
+			text-align:center;
+			padding: 0px !important;
+
+			&.Weekend { 
+				background: #ffdfdf;
+			}
+			span{
+				font-size: 12px;
+			}
+		}
+	}
+	#CalendarBody {
+		.DateBox { 
+			vertical-align: top; 
+			border-right: solid 1px #ddd; 
+			border-bottom: solid 1px #ddd; 
+			padding: 0px !important;
+			cursor: pointer;
+			&:first-child{
+				border-left: solid 1px #ddd;
+			}
+			&.Today { 
+				background:#A9DFFF;
+			}
+		}
+		.Weekend { 
+			background: #ffdfdf;
+		}
+		.Inactive { 
+			background: #f1f1f1;
+			&.Weekend{
+				background: #f7e9e9;
+			}
+		}
+
+	}
+}
+.Meeting { 
+	background-color: #daffb6 !important;
+}
+.Birthday { 
+	background-color: #ffb6fb !important;
+}
+
+.MoreEvents{
+	cursor: pointer;
+}
+.DateLabel { 
+	height: 1px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 50px;
+	color: rgba(0,0,0,0.1);
+}
+.DateLabel a { 
+	cursor:pointer; 
+	padding:0 5px 2px; 
+	text-decoration:none; 
+	line-height:16px; 
+}
+
+
