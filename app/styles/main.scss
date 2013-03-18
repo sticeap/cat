@@ -90,6 +90,15 @@ body {
 			}
 		}
 	}
+	.more-events-show{
+		position: absolute;
+		width:200px;
+		min-height: 40px;
+		background: rgba(255,255,255, 0.8);
+		z-index:999;
+		border: 1px solid #ccc;
+		outline: none;
+	}
 }
 
 .MonthlyCalendar {

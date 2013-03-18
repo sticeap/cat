@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', function($scope, $window, config, $http){
+cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$timeout', function($scope, $window, config, $http, $timeout){
 
 	var $ = angular.element;
 
@@ -58,9 +58,6 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
             'buttons'     : {
                 'Ok'     : {
                     'action': function(){}
-                },
-                'Close'     : {
-                    'action': function(){}
                 }
             }
         });
@@ -70,7 +67,7 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
 				width: 700,
 				navHeight: 25,
 				labelHeight: 25,
-				dragableEvents: true,
+				dragableEvents: false,
 				dragHoverClass: 'DateBoxOver',
 				navLinks: {
 					enableToday: true,
@@ -96,8 +93,9 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
 					return true; 
 				},
 				onEventBlockClick: function(event) { 
-					console.log(event);
-					alert(event.data.Event.Title + " - " + event.data.Event.Description);
+					if($('.more-events-show').length>0)
+						return false;
+					console.log('now event',event)
 					event.preventDefault();
 					event.stopPropagation();
 					return true; 
@@ -115,7 +113,9 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
 					return true; 
 				},
 				onDayCellClick: function(event) { 
-					//alert("day cell: " + date.toLocaleDateString());
+					if($('.more-events-show').length>0)
+						return false;
+
 					var ev = { "EventID": ($scope.events.length + 1), "StartDateTime": event.data.Date, "Title": menu.name, "URL": "", "Description": "", "CssClass": "Birthday" };
 					$.jMonthCalendar.AddEvents(ev);
 					
@@ -124,8 +124,6 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
 
 					event.preventDefault();
 					event.stopPropagation();
-					console.log(event.data, ev);
-					//console.log("DayCell", event);
 					return true; 
 				},
 				onEventDropped: function(event, newDate) {
@@ -136,32 +134,40 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', fun
 					$scope.$apply();
 					return true;
 				},
-				onShowMoreClick: function(events) {
-					console.log(events);
+				onShowMoreClick: function(events, event) {
+					var offsetX = event.currentTarget.offsetLeft,
+						offsetY = event.currentTarget.offsetTop + 16,
+						child = $('<div class="more-events-show" tabindex="1000"></div>');
+					
+					child
+						.css({
+							top : offsetY, 
+							left : offsetX
+						})
+						.on('blur', function(){
+							var _that = $(this);
+							$timeout(function(){ _that.remove(); }, 100);
+						})
+					angular.forEach(events, function(el){
+						child.append('<div class="'+el.CssClass+'">'+el.Title+'</div>');
+					})
+					$('#jMonthCalendar').append(child);
+					child.focus();
+				},
+				removeEventClick : function(event){
+					event.preventDefault();
+					event.stopPropagation();
+					angular.forEach($scope.events, function(el, i){
+						if(el.EventID == event.data.Event.EventID){
+							$scope.events.splice(i, 1);
+							$scope.$apply();
+						}
+					});
+					$.jMonthCalendar.ReplaceEventCollection($scope.events);
 				}
 			};
 			
-			var newoptions = { };
-			var newevents = [ ];
-			//$.jMonthCalendar.Initialize(newoptions, newevents);
-
-			
 			$.jMonthCalendar.Initialize(options, $scope.events);
-			//$.jMonthCalendar.DrawCalendar();
-			
-			
-			
-			var extraEvents = [	{ "EventID": 5, "StartDateTime": new Date(2013, 3, 11), "Title": "10:00 pm - EventTitle1", "URL": "#", "Description": "This is a sample event description", "CssClass": "Birthday" },
-								{ "EventID": 6, "StartDateTime": new Date(2013, 3, 20), "Title": "9:30 pm - this is a much longer title", "URL": "#", "Description": "This is a sample event description", "CssClass": "Meeting" }
-			];
-			
-			$("#Button").click(function() {					
-				$.jMonthCalendar.AddEvents(extraEvents);
-			});
-			
-			$("#ChangeMonth").click(function() {
-				$.jMonthCalendar.ChangeMonth(new Date(2008, 4, 7));
-			});
 	};
 	
     $scope.stopPropagation = function(e){
