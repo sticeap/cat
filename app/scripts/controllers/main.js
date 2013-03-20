@@ -2,13 +2,24 @@
 
 /* Controllers */
 
-cateringApp.controller('MainCtrl', function ($scope) {
-		$scope.awesomeThings = [
-		  'HTML5 Boilerplate',
-		  'AngularJS',
-		  'Testacular'
-		];
+cateringApp.controller('MainCtrl', ['$scope', 'commentsvc', function ($scope, commentsvc) {
+	$scope.awesomeThings = [
+	  'HTML5 Boilerplate',
+	  'AngularJS',
+	  'Testacular'
+	];
+
+	$scope.comment = commentsvc.query({id:2,limit:20,page:3},function(data){
+		console.log('finish', data);
 	});
+
+	$scope.save = function(){
+		commentsvc.update({id:2},function(data){
+			console.log('finish', data);
+
+		});
+	}
+}]);
 
 cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeout', '$http', '$location', function($scope, $window, config, login, $timeout, $http, $location){
 	var $ = angular.element;

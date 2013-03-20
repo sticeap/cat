@@ -11,7 +11,8 @@ appServices.factory('config', function($resource, $window){
 			scopes : 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/fusiontables https://www.googleapis.com/auth/fusiontables.readonly'
 		},
 		urls : {
-			menus : 'data/menus.json'
+			menus : 'data/menus.json',
+			comment : 'http://192.168.1.104/catering/data/comment'
 		},
 		prices : [5, 9, 12, 15, 20, 30, 40],
 		menus : [

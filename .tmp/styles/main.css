@@ -1,0 +1,227 @@
+/*@import "compass_twitter_bootstrap";*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\000033}}
+body {
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\000036}}
+.metrouicss .page {
+  width: 940px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000312}}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000322}}
+.metrouicss .listview li .data p {
+  height: 51px;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000328}}
+.metrouicss #dialogOverlay {
+  z-index: 9999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000332}}
+#page-content-view {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000336}}
+#loading {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000346}}
+#loading #loading-image {
+  background-image: url(../images/preloader-w8-cycle-black.gif);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -32px;
+  margin-left: -32px;
+  width: 64px;
+  height: 64px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000356}}
+#loading #login-button-google {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000362}}
+#loading #login-button-google .icon-google, #loading #login-button-google .icon-share-3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000366}}
+#loading #login-button-google .icon-google .text, #loading #login-button-google .icon-share-3 .text {
+  float: right;
+  width: 240px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000377}}
+#jMonthCalendar {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000380}}
+#jMonthCalendar .Event {
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000384}}
+#jMonthCalendar .Event a {
+  text-decoration: none;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000388}}
+#jMonthCalendar .Event a:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\0000393}}
+#jMonthCalendar .more-events-show {
+  position: absolute;
+  width: 200px;
+  min-height: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003104}}
+.MonthlyCalendar {
+  height: 100%;
+  width: 100%;
+  border: solid 1px #ddd;
+  border-collapse: collapse;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003110}}
+.MonthlyCalendar .MonthNavigation {
+  clear: both;
+  height: 20px;
+  padding: 5px 10px 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003115}}
+.MonthlyCalendar .MonthNavPrev, .MonthlyCalendar .MonthNavNext, .MonthlyCalendar .TodayLink {
+  padding: 0px 10px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003119}}
+.MonthlyCalendar .YearNavNext, .MonthlyCalendar .YearNavPrev {
+  width: 10%;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003123}}
+.MonthlyCalendar .MonthName {
+  width: 59%;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003129}}
+.MonthlyCalendar #CalendarHead {
+  width: 100%;
+  background: #F7F7F7 none repeat scroll 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003134}}
+.MonthlyCalendar #CalendarHead tr td {
+  padding: 0px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003139}}
+.MonthlyCalendar #CalendarHead .DateHeader {
+  width: 14%;
+  text-align: center;
+  padding: 0px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003144}}
+.MonthlyCalendar #CalendarHead .DateHeader.Weekend {
+  background: #ffdfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003147}}
+.MonthlyCalendar #CalendarHead .DateHeader span {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003153}}
+.MonthlyCalendar #CalendarBody .DateBox {
+  vertical-align: top;
+  border-right: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  padding: 0px !important;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003159}}
+.MonthlyCalendar #CalendarBody .DateBox:first-child {
+  border-left: solid 1px #ddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003162}}
+.MonthlyCalendar #CalendarBody .DateBox.Today {
+  background: #A9DFFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003166}}
+.MonthlyCalendar #CalendarBody .Weekend {
+  background: #ffdfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003169}}
+.MonthlyCalendar #CalendarBody .Inactive {
+  background: #f1f1f1;
+  /*.DateLabel{
+  	display: none;
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003175}}
+.MonthlyCalendar #CalendarBody .Inactive.Weekend {
+  background: #f7e9e9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003182}}
+.Meeting {
+  background-color: #daffb6 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003185}}
+.Birthday {
+  background-color: #ffb6fb !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003189}}
+.MoreEvents {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003192}}
+.DateLabel {
+  height: 1px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/catering\/app\/styles\/main\.scss}line{font-family:\00003200}}
+.DateLabel a {
+  cursor: pointer;
+  padding: 0 5px 2px;
+  text-decoration: none;
+  line-height: 16px;
+}

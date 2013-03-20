@@ -67,6 +67,14 @@ body {
       color: #000; }
       #jMonthCalendar .Event a:hover {
         text-decoration: underline; }
+  #jMonthCalendar .more-events-show {
+    position: absolute;
+    width: 200px;
+    min-height: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    border: 1px solid #ccc;
+    outline: none; }
 
 .MonthlyCalendar {
   height: 100%;
@@ -114,7 +122,10 @@ body {
   .MonthlyCalendar #CalendarBody .Weekend {
     background: #ffdfdf; }
   .MonthlyCalendar #CalendarBody .Inactive {
-    background: #f1f1f1; }
+    background: #f1f1f1;
+    /*.DateLabel{
+    	display: none;
+    }*/ }
     .MonthlyCalendar #CalendarBody .Inactive.Weekend {
       background: #f7e9e9; }
 
