@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$timeout', function($scope, $window, config, $http, $timeout){
+cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$timeout', 'commentsvc', 'login', function($scope, $window, config, $http, $timeout, commentsvc, login){
 
 	var $ = angular.element;
 
@@ -10,6 +10,7 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$t
 	$scope.menuTypes = {};
 	$scope.prices = config.prices;
 	$scope.selectedPrice = $scope.prices[2];
+	$scope.menu = {};
 
 	$http({
 		method : 'GET',
@@ -24,16 +25,145 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$t
 		});
 	});
 
-	$scope.events = [ 	{ "EventID": 12, "StartDateTime": "new Date(2013, 2, 1)", "Title": "Meniu nr. 9", "URL": "", "Description": "This is a sample event description", "CssClass": "Birthday" },
-						{ "EventID": 1, "StartDateTime": new Date(2013, 2, 12), "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Birthday" },
-						{ "EventID": 2, "StartDateTime": "2013-03-28T00:00:00.0000000", "Title": "Meniu nr. 180", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 3, "StartDateTime": "2013-03-31", "Title": "Meniu nr. 63", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 4, "StartDateTime": "2013-03-14", "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 42, "StartDateTime": "2013-03-14", "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 43, "StartDateTime": "2013-03-14", "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 44, "StartDateTime": "2013-03-14", "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" },
-						{ "EventID": 45, "StartDateTime": "2013-03-14", "Title": "Meniu nr. 6", "URL": "", "Description": "This is a sample event description", "CssClass": "Meeting" }
-		];
+	var init = function(){
+		$scope.comment = commentsvc.select({userid:login.data.id},function(data){
+			angular.forEach(data, function(el){
+				$scope.events.push({
+					EventID : el.order_id,
+					StartDateTime : el.order_date,
+					Title : el.order_name,
+					CssClass : 'Meeting'
+				});
+				
+			});
+		});
+	};
+
+	$scope.$on('login',function(){
+		init();
+	});
+
+	$scope.events = [];
+
+	var options = {
+		height: 400,
+		width: 700,
+		navHeight: 25,
+		labelHeight: 25,
+		dragableEvents: false,
+		dragHoverClass: 'DateBoxOver',
+		navLinks: {
+			enableToday: true,
+			enableNextYear: false,
+			enablePrevYear: false,
+			p:'Prev', 
+			n:'Next', 
+			t:'Today',
+			showMore:'Show More'
+		},
+		onMonthChanging: function(dateIn) {
+			//this could be an Ajax call to the backend to get this months events
+			//var events = [ 	{ "EventID": 7, "StartDate": new Date(2009, 1, 1), "Title": "10:00 pm - EventTitle1", "URL": "#", "Description": "This is a sample event description", "CssClass": "Birthday" },
+			//				{ "EventID": 8, "StartDate": new Date(2009, 1, 2), "Title": "9:30 pm - this is a much longer title", "URL": "#", "Description": "This is a sample event description", "CssClass": "Meeting" }
+			//];
+			//$.jMonthCalendar.ReplaceEventCollection($scope.events);
+			if(options.dateLimitMin && options.dateLimitMin > dateIn){
+				return true;
+			}
+		},
+		onEventLinkClick: function(event) {
+			//alert("event link click");
+			return true; 
+		},
+		onEventBlockClick: function(event) { 
+			if($('.more-events-show').length>0)
+				return false;
+			console.log('now event',event)
+			event.preventDefault();
+			event.stopPropagation();
+			return true; 
+		},
+		onEventBlockOver: function(event) {
+			//alert(event.Title + " - " + event.Description);
+			return true;
+		},
+		onEventBlockOut: function(event) {
+
+			return true;
+		},
+		onDayLinkClick: function(event) { 
+			//alert("day link: "+date.toLocaleDateString());
+			return true; 
+		},
+		onDayCellClick: function(event) { 
+			if($('.more-events-show').length > 0)
+				return false;
+			event.preventDefault();
+			event.stopPropagation();
+			console.log(event.data, $scope.menu);
+			var args = {
+				userid : login.data.id,
+				ordername : $scope.menu.name,
+				orderdate : event.data.Date.toString('yyyy-MM-dd'),
+				menuid : $scope.menu.name.split('. ')[1] //TODO: modify with id menu from database
+			};
+
+			$scope.comment = commentsvc.create(args, function(data){
+				console.log(arguments);
+				console.log(data);
+				var ev = {
+					EventID : data.order_id,
+					StartDateTime : data.order_date,
+					Title : data.order_name,
+					CssClass : 'Meeting'
+				};
+				$.jMonthCalendar.AddEvents(ev);
+
+				$scope.events.push(ev);
+			});
+
+			return true; 
+		},
+		onEventDropped: function(event, newDate) {
+			angular.forEach($scope.events, function(el){
+				if(el.EventID == event.EventID)
+					el.StartDateTime = new Date(newDate);
+			});
+			$scope.$apply();
+			return true;
+		},
+		onShowMoreClick: function(events, event) {
+			var offsetX = event.currentTarget.offsetLeft,
+				offsetY = event.currentTarget.offsetTop + 16,
+				child = $('<div class="more-events-show" tabindex="1000"></div>');
+			
+			child
+				.css({
+					top : offsetY, 
+					left : offsetX
+				})
+				.on('blur', function(){
+					var _that = $(this);
+					$timeout(function(){ _that.remove(); }, 100);
+				})
+			angular.forEach(events, function(el){
+				child.append('<div class="'+el.CssClass+'">'+el.Title+'</div>');
+			})
+			$('#jMonthCalendar').append(child);
+			child.focus();
+		},
+		removeEventClick : function(event){
+			event.preventDefault();
+			event.stopPropagation();
+			angular.forEach($scope.events, function(el, i){
+				if(el.EventID == event.data.Event.EventID){
+					$scope.events.splice(i, 1);
+					$scope.$apply();
+				}
+			});
+			$.jMonthCalendar.ReplaceEventCollection($scope.events);
+		}
+	};
 
 	$scope.selectmenu = function(menu){
 		angular.forEach($scope.menus, function(item){
@@ -44,6 +174,7 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$t
 
 
 		menu.selected = true;
+		$scope.menu = menu;
 
 		$.Dialog({
             'title'       : 'Select day',
@@ -61,113 +192,8 @@ cateringApp.controller('MenusCtrl', ['$scope', '$window', 'config', '$http', '$t
                 }
             }
         });
-
-        var options = {
-				height: 400,
-				width: 700,
-				navHeight: 25,
-				labelHeight: 25,
-				dragableEvents: false,
-				dragHoverClass: 'DateBoxOver',
-				navLinks: {
-					enableToday: true,
-					enableNextYear: false,
-					enablePrevYear: false,
-					p:'Prev', 
-					n:'Next', 
-					t:'Today',
-					showMore:'Show More'
-				},
-				onMonthChanging: function(dateIn) {
-					//this could be an Ajax call to the backend to get this months events
-					//var events = [ 	{ "EventID": 7, "StartDate": new Date(2009, 1, 1), "Title": "10:00 pm - EventTitle1", "URL": "#", "Description": "This is a sample event description", "CssClass": "Birthday" },
-					//				{ "EventID": 8, "StartDate": new Date(2009, 1, 2), "Title": "9:30 pm - this is a much longer title", "URL": "#", "Description": "This is a sample event description", "CssClass": "Meeting" }
-					//];
-					//$.jMonthCalendar.ReplaceEventCollection($scope.events);
-					if(options.dateLimitMin && options.dateLimitMin > dateIn){
-						return true;
-					}
-				},
-				onEventLinkClick: function(event) {
-					//alert("event link click");
-					return true; 
-				},
-				onEventBlockClick: function(event) { 
-					if($('.more-events-show').length>0)
-						return false;
-					console.log('now event',event)
-					event.preventDefault();
-					event.stopPropagation();
-					return true; 
-				},
-				onEventBlockOver: function(event) {
-					//alert(event.Title + " - " + event.Description);
-					return true;
-				},
-				onEventBlockOut: function(event) {
-
-					return true;
-				},
-				onDayLinkClick: function(event) { 
-					//alert("day link: "+date.toLocaleDateString());
-					return true; 
-				},
-				onDayCellClick: function(event) { 
-					if($('.more-events-show').length>0)
-						return false;
-
-					var ev = { "EventID": ($scope.events.length + 1), "StartDateTime": event.data.Date, "Title": menu.name, "URL": "", "Description": "", "CssClass": "Birthday" };
-					$.jMonthCalendar.AddEvents(ev);
-					
-					$scope.events.push(ev);
-					$scope.$apply();
-
-					event.preventDefault();
-					event.stopPropagation();
-					return true; 
-				},
-				onEventDropped: function(event, newDate) {
-					angular.forEach($scope.events, function(el){
-						if(el.EventID == event.EventID)
-							el.StartDateTime = new Date(newDate);
-					});
-					$scope.$apply();
-					return true;
-				},
-				onShowMoreClick: function(events, event) {
-					var offsetX = event.currentTarget.offsetLeft,
-						offsetY = event.currentTarget.offsetTop + 16,
-						child = $('<div class="more-events-show" tabindex="1000"></div>');
-					
-					child
-						.css({
-							top : offsetY, 
-							left : offsetX
-						})
-						.on('blur', function(){
-							var _that = $(this);
-							$timeout(function(){ _that.remove(); }, 100);
-						})
-					angular.forEach(events, function(el){
-						child.append('<div class="'+el.CssClass+'">'+el.Title+'</div>');
-					})
-					$('#jMonthCalendar').append(child);
-					child.focus();
-				},
-				removeEventClick : function(event){
-					event.preventDefault();
-					event.stopPropagation();
-					angular.forEach($scope.events, function(el, i){
-						if(el.EventID == event.data.Event.EventID){
-							$scope.events.splice(i, 1);
-							$scope.$apply();
-						}
-					});
-					$.jMonthCalendar.ReplaceEventCollection($scope.events);
-				}
-			};
 			
-			$.jMonthCalendar.Initialize(options, $scope.events);
+		$.jMonthCalendar.Initialize(options, $scope.events);
 	};
 	
     $scope.stopPropagation = function(e){

@@ -4,38 +4,46 @@
 
 appServices.factory('commentsvc', function ($resource, config) {
     return $resource(
-    	config.urls.comment + '?:actionkey:action&id=:id:pagekey:page&limit=:limit', 
+    	config.urls.orders + '?:actionkey:action:idkey:id:pagekey:page:useridkey:userid:ordernamekey:ordername:orderdatekey:orderdate:menuidkey:menuid', 
     	{
-    		id:'@id',
-    		limit: '@limit',
-        actionkey: 'action='
+            //callback: 'JSON_CALLBACK'
     	}, 
     	{
-    		'initialize' : { 
-    			method: 'GET',
+    		'initialize' : {
     			params: {
+                    actionkey: 'action=',
     				action : 'initialize'
     			},
     			isArray : true
     		},
-    		'save': { 
-    			method: 'POST',
+    		'create': { 
+                method : 'POST',
     			params: { 
-    				action: 'create'
+                    actionkey: 'action=',
+    				action: 'create',
+                    useridkey : '&userid=',
+                    userid : '@userid',
+                    ordernamekey : '&ordername=',
+                    ordername : '@ordername',
+                    orderdatekey : '&orderdate=',
+                    orderdate : '@orderdate',
+                    menuidkey : '&menuid=',
+                    menuid : '@menuid'
     			}
     		},
-    		'query' : {
-    			method: 'POST', 
+    		'select' : {
+                method : 'POST',
     			params: { 
-    				action : 'read',
-            page : '@page',
-            pagekey : '&page='
+                    actionkey: 'action=',
+    				action : 'select',
+                    useridkey : '&user_id=',
+                    userid : '@userid'
     			},
     			isArray : true 
     		},
-    		'update': { 
-    			method: 'PUT', 
+    		'update': {
     			params: {
+                    actionkey: 'action=',
     				action: 'update'
     			} 
     		}

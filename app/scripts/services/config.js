@@ -5,6 +5,7 @@
 appServices.factory('config', function($resource, $window){
 	var local =  {
 		homepage : '#/home',
+		loggedin : false,
 		googleapi : {
 			clientId : '335613153987.apps.googleusercontent.com',
 			apiKey : 'AIzaSyD_FtggpK_6Z2JvcGoG5pcWU8oi-uFWr2o',
@@ -12,7 +13,8 @@ appServices.factory('config', function($resource, $window){
 		},
 		urls : {
 			menus : 'data/menus.json',
-			comment : 'http://192.168.1.104/catering/data/comment'
+			comment : 'http://192.168.1.104/catering/data/comment',
+			orders : 'http://192.168.1.104/catering/data/orders'
 		},
 		prices : [5, 9, 12, 15, 20, 30, 40],
 		menus : [

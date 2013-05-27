@@ -1,2 +1,3 @@
 RewriteEngine On
 RewriteRule ^comment/ comment.php
+RewriteRule ^orders/ orders.php

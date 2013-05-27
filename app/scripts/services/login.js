@@ -7,13 +7,18 @@ appServices.factory('login', function($resource, $window, config){
 	// Use a button to handle authentication the first time.
 	var isLogged = false,
 		data = {},
+		eventHandlers = {},
 		checkAuth = function(callback, force){
 			gapi.client.setApiKey(config.googleapi.apiKey);
 			gapi.auth.authorize({client_id: config.googleapi.clientId, scope: config.googleapi.scopes, hd : 'xivic.com', immediate: true}, function(authResult){
 				if (authResult && !authResult.error) {
 					isLogged = true;
-					console.log(gapi.auth.getToken());
 					makeApiCall(callback);
+					/*console.log(eventHandlers);
+					angular.forEach(eventHandlers, function(el){
+						console.log(el);
+						el();
+					});*/
 				}else{
 					isLogged = false;
 					if(typeof callback == 'function' && force){

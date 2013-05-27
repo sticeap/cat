@@ -2,26 +2,27 @@
 
 /* Controllers */
 
-cateringApp.controller('MainCtrl', ['$scope', 'commentsvc', function ($scope, commentsvc) {
-	$scope.awesomeThings = [
-	  'HTML5 Boilerplate',
-	  'AngularJS',
-	  'Testacular'
-	];
+cateringApp.controller('MainCtrl', ['$scope', '$timeout', 'commentsvc', 'login', 'config', function ($scope, $timeout, commentsvc, login, config) {
 
-	$scope.comment = commentsvc.query({id:2,limit:20,page:3},function(data){
-		console.log('finish', data);
+	var init = function(){
+		$scope.comment = commentsvc.select({userid:login.data.id},function(data){
+			console.log('finish', data);
+		});
+	};
+
+	$scope.$on('login',function(){
+		init();
 	});
 
 	$scope.save = function(){
 		commentsvc.update({id:2},function(data){
-			console.log('finish', data);
+			console.log('update', data);
 
 		});
 	}
 }]);
 
-cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeout', '$http', '$location', function($scope, $window, config, login, $timeout, $http, $location){
+cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeout', '$http', '$location', '$rootScope', function($scope, $window, config, login, $timeout, $http, $location, $rootScope){
 	var $ = angular.element;
 
 	$window.init = function(){
@@ -67,7 +68,6 @@ cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeou
 					$scope.menu.push(el);
 				}
 			});
-			console.log(JSON.stringify($scope.menu));
 		})
 	}
 
@@ -90,6 +90,7 @@ cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeou
 						text : "Logout",
 						data : data
 					};
+					$rootScope.$broadcast('login', data);
 					angular.extend($scope.user, config);
 					$scope.loading = false;
 					$scope.$apply();
@@ -104,6 +105,7 @@ cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeou
 						text : "Login",
 						data : {}
 					};
+					
 					$scope.hideloader = true;
 					$scope.loading = true;
 					angular.extend($scope.user, config);
@@ -112,7 +114,6 @@ cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeou
 		},
 		checkAuth : function(){
 			login.checkAuth(function(data){
-				console.log(data);
 				if(data == false){
 					$scope.hideloader = true;
 					$scope.$apply();
@@ -125,7 +126,7 @@ cateringApp.controller('Menu', ['$scope', '$window', 'config', 'login', '$timeou
 						text : "Logout",
 						data : data
 					};
-
+					$rootScope.$broadcast('login', data);
 					angular.extend($scope.user, config);
 					$scope.loading = false;
 					$scope.$apply();

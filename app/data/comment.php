@@ -11,13 +11,10 @@ header('Access-Control-Allow-Headers: accept, origin, x-requested-with, content-
 
 // Set the age to 1 day to improve speed/caching.
 header('Access-Control-Max-Age: 86400');
-	$content = file_get_contents("php://in");
 
 	$method = $_SERVER['REQUEST_METHOD'];
-	$action = $_POST['action'];
+	$action = $_REQUEST['action'];
 	$limit = $_REQUEST['limit'] ? $_REQUEST['limit'] : 5;
-
-	echo $content;
 
 	if($action=="read"){
 		$results = array();
